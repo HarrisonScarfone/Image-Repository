@@ -1,6 +1,6 @@
 # Image Repository In a Split Service, Fully Containerized Model
 
-This fully containerized solution utilizes three containers deployed under a single application with `docker-compose`. One container holds the `PostgreSQL` database while another holds a container which uses it's file system for image storage. The image storage container also implements a barebones front end for GUI interaction. The third container spins up to run tests on the endpoints at startup then terminates itself.
+This fully containerized solution utilizes three containers deployed under a single application with `docker-compose`. One container holds the `PostgreSQL` database while another holds a container which uses it's file system for image storage. The image storage container is packaged with a barebones front end for GUI interaction. The third container spins up to run tests on the endpoints at startup then terminates itself.
 
 The solution currently implements two basic functions - storing an image with keywords/file name and retrieving a random image from the database based on supplied keywords.
 
