@@ -65,7 +65,7 @@ Uder the `Search for Image Based on Attributes`, enter either a filename OR a st
 
 To store an image in this solution, a front end (in this case my barebones implementation) must provide an image file.  User can also (optionally) supply keywords which are attached to the image and can be used later for searching for and obtaining a random image from the repository. 
 
-When the information is sent to the backend, it generateds a uuid for the image and grabs the file name as it was uploaded.  It then takes these two pieces of information and along with any optional tags, creates a entry in a seperate `PostgreSQL` service.  It also takes the image files, renames them to their uuid and stores them in a filesystem.  This model provides not only efficent searching and retrival of images, but a more universal solution with using a filesystem for the actual image storage rather than attempting to store image information in a `PostgreSQL` type.
+When the information is sent to the backend, it generateds a uuid for the image and grabs the file name as it was uploaded.  It then takes these two pieces of information and along with any optional tags, creates a entry in a seperate `PostgreSQL` service.  It also takes the image files, renames them to their uuid and stores them in a filesystem.  This model provides not only efficent searching and retrival of images, but prevents having to store images as information in a `PostgreSQL` type.
 
 ### Retriving an Image
 
