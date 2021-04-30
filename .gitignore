@@ -1,0 +1,15 @@
+# VSCode Configuration
+.vscode
+
+# Local Python venv
+env
+
+# Not Needed Directories
+data/db
+
+# Python 
+#
+# Cache Files
+*.pyc
+
+

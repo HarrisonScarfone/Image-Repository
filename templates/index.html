@@ -1,0 +1,39 @@
+<html>
+    <title>Image Repository</title>
+    <body>
+        <h3>Upload An Image</h3>
+        <hr>
+        <form action="/uploadimg", enctype="multipart/form-data" method="POST">
+            <p>
+                <label for="img">Select image:</label>
+                <input type="file" id="img" name="img"><br>
+            </p>
+            <p>
+                <label for="tags">Keywords (20 char max between spaces, max 110 characters string total, seperated by spaces)</label><br>
+                <input type="text" id="tags" name="tags"><br>
+            </p>
+            <p>
+                <input type="submit"><br>
+            </p>
+        </form>  
+        <hr>
+        <h3>Search for Image Based on Attributes</h3>
+        <form action="/grabimage", enctype="multipart/form-data" method="POST">
+            <p>
+                <label for="file_name">File name:</label><br>
+                <input type="text" id="file_name" name="file_name"><br>
+            </p>
+            <hr>
+            OR
+            <hr>
+            <p>
+                <label for="keywords">Keywords (20 char max keyword, 110 total char max, seperated by spaces):</label><br>
+                <input type="text" id="keywords" name="keywords"><br>
+            </p>
+            <hr>
+            <p>
+                <input type="submit"><br>
+            </p>
+        </form> 
+    </body> 
+</html>
