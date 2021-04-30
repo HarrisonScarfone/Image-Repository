@@ -87,4 +87,4 @@ Using OAuth 2.0 (or some other form of user authentication) would allow me to re
 
 ### Inablity to Delete Images
 
-Although the db administrator (or anyone who managed to obtain/guess the password) can delete images, users may want the ability to do so.  HOWEVER, I think baring VERY well implemented image filters (possibly to the point of fiction but thats another discussion) it might be fun to just have a database of pictures that people can add to and retrieve at random based on key words (I'm picturing the `gif` feature on `Slack`).
+Although the db administrator (or anyone who managed to obtain/guess the password) can delete images, users may want the ability to do so.  HOWEVER, I think under the assumption of VERY well implemented image filters (possibly to the point of fiction but thats another discussion) it might be fun to just have a database of pictures that people can add to and retrieve at random based on key words (I'm picturing the `gif` feature on `Slack`).
