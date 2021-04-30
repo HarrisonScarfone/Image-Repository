@@ -1,5 +1,6 @@
 #! /usr/bin/env sh
 
+# hackathony solution vs checking for connection
 sleep 30
 
 echo Starting service tests...

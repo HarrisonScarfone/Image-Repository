@@ -4,6 +4,7 @@ from routes.v1 import app_v1
 
 import time
 
+# hackathony solution vs checking for connection
 time.sleep(15)
 
 init_image_db()
